@@ -20,8 +20,5 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-  - For some reason, deployment to heroku fails unless I remove the following
-    lines from Gemfile.lock:
-      BUNDLED WITH
-        <bundle version>
+
 * ...
