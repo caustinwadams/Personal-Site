@@ -1,0 +1,3 @@
+<h1><%= @blog.title %></h1>
+<h4>Published: <%= @blog.published_at %></h4>
+<p><%= @blog.post %></p>

@@ -1,0 +1,10 @@
+<li class="list-group-item">
+  <div class="row">
+    <div class="col-sm">
+      <h2><%= link_to blog.title, blog %></h2>
+    </div>
+    <div class="col-sm">
+      <h3><%= blog.published_at %></h3>
+    </div>
+  </div>
+</li>
