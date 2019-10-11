@@ -6,8 +6,9 @@ Rails.application.routes.draw do
   get 'static_pages/home'
   get 'static_pages/resume'
   root 'static_pages#home'
-  get '/resume', to: 'static_pages#resume'
-  get '/blogs',   to: 'blogs#index'
-
+  get '/resume',   to: 'static_pages#resume'
+  get '/blogs',    to: 'blogs#index'
+  get 'new_blog',  to: 'blogs#new'
+  post 'new_blog', to: 'blogs#create'
   resources :blogs  
 end
