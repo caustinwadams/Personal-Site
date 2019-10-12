@@ -1,3 +1,3 @@
-<h1><%= @blog.title %></h1>
-<h6 style="text-align: center;">Published: <%= @blog.published_at.to_s.split()[0] %></h6>
-<p><%= @blog.post %></p>
+<h1 style="text-align: left; margin-left: 5%;"><%= @blog.title %></h1>
+<h6 style="margin-left: 5%;">Published: <%= @blog.published_at.to_s.split()[0] %></h6>
+<p style="margin-left: 5%;"><%= simple_format(@blog.post, class: "blog-sf") %></p>

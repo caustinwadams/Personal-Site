@@ -1,5 +1,5 @@
 <h1>New Blog Post</h1>
-<div class="container" style="width: 80vw;">
+<div class="container" style="width: 95vw;">
   <div class="center jumbotron bg-dark">
     <%= form_for(@blog) do |b| %>
       <%= b.label :title, style: 'color: white;' %>
@@ -8,7 +8,7 @@
       <%= b.label :post, style: 'color: white;' %>
       <%= b.text_area :post, class: 'form-control', rows: 15 %>
 
-      <%= b.submit "Create Post", class: 'btn btn-primary mt-2', style: "width: 100%;" %>
+      <%= b.submit "Create Post", class: 'btn btn-primary mt-2', style: "width: 100%; margin-bottom: -5%;" %>
     <% end %>
   </div>
 </div>

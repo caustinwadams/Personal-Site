@@ -1,6 +1,6 @@
 @import "bootstrap";
 
-h1, p {
+h1 {
   text-align: center;
 }
 
@@ -11,9 +11,7 @@ nav {
 .resume {
   text-align: left;
   margin-left: 5%;
-  h2 {
-    margin-left: 2.5%;
-  }
 }
+
 
 
