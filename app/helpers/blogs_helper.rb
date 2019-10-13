@@ -8,7 +8,12 @@ module BlogsHelper
     if post =~ /(\*\*(.+)\*\*)/m
       post.gsub!($1, "<strong>#{$2}</strong>")
     end
-    puts post
+
+    # Replaces text with code when surrounded by '\code\' tags
+    if post =~ /(\\code\\(.+)\\code\\)/m
+      post.gsub!($1, "<pre><code>#{$2}</code></pre>")
+    end
+    simple_format(post, class: "blog-sf")
   end
 
 end
