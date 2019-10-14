@@ -1,4 +1,4 @@
 <li class="list-group-item">
   <h2><%= link_to blog.title, blog %></h2>
-  <h6>Published: <%= blog.published_at.to_s.split()[0] %></h6>
+  <h6>Published: <%= blog.published_at.strftime("%B %d, %Y") %></h6>
 </li>
