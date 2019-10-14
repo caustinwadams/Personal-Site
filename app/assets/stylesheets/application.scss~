@@ -13,5 +13,26 @@ nav {
   margin-left: 5%;
 }
 
+.blog-sf {
+  margin-left: 5%;
+  margin-bottom: 0;
+}
+
+.jumbotron.blog-sf {
+  width: 90vw;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.blog-code {
+  br {
+    height: 0px;
+  }
+}
+
+p {
+  margin-bottom: 0;
+}
+
 
 
