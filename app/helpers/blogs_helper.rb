@@ -11,7 +11,7 @@ module BlogsHelper
 
     # Replaces text with code when surrounded by '\code\' tags
     if post =~ /(\\code\\(.+)\\code\\)/m
-      post.gsub!($1, "<div class='jumbotron blog-sf'><pre class='mb-0'><code>#{$2}</code></pre></div>")
+      post.gsub!($1, "<div class='jumbotron blog-sf'><pre><code>#{$2}</code></pre></div>")
     end
     simple_format(post, class: "blog-sf")
   end

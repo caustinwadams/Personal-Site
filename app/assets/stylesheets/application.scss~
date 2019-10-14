@@ -24,12 +24,6 @@ nav {
   padding-bottom: 15px;
 }
 
-.blog-code {
-  br {
-    height: 0px;
-  }
-}
-
 p {
   margin-bottom: 0;
 }
